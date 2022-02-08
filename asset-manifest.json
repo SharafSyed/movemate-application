@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/movemate-application/static/css/main.1e33350d.css",
-    "main.js": "/movemate-application/static/js/main.0a1dbe0b.js",
+    "main.js": "/movemate-application/static/js/main.200bd6e3.js",
     "static/js/787.dca3c7cd.chunk.js": "/movemate-application/static/js/787.dca3c7cd.chunk.js",
     "index.html": "/movemate-application/index.html",
     "main.1e33350d.css.map": "/movemate-application/static/css/main.1e33350d.css.map",
-    "main.0a1dbe0b.js.map": "/movemate-application/static/js/main.0a1dbe0b.js.map",
+    "main.200bd6e3.js.map": "/movemate-application/static/js/main.200bd6e3.js.map",
     "787.dca3c7cd.chunk.js.map": "/movemate-application/static/js/787.dca3c7cd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1e33350d.css",
-    "static/js/main.0a1dbe0b.js"
+    "static/js/main.200bd6e3.js"
   ]
 }
