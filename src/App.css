@@ -1,38 +1,64 @@
-.App {
+.App{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  align-items: top;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  background-color:lightblue;
+}
+.datepicker{
+  margin-bottom: 20px;
+}
+.datepicker input{
+  text-align: center;
+  background-color: rgb(219, 238, 245);
+  width: 300px;
+  height: 50px;
+  border-color:navy;
+  border-radius: 10px 10px 10px 10px;
+  font-size: 1.4em; 
+  border-width: 3px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.label{
+  padding-bottom: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.button {
+  margin-bottom: 20px;
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4b97df;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 5px #999;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+.button:hover {background-color: #2a5883}
 
-.App-link {
-  color: #61dafb;
+.button:active {
+  background-color: #2a5883;
+  box-shadow: 0 2px #666;
+  transform: translateY(4px);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.picker {
+  margin-top: 10px;
+  margin-right: 40px;
+  margin-left:40px;
+  margin-bottom: 40px;
+  background-color: rgb(219, 238, 245);
+  width: 120px;
+  height: 30px;
+  border-color:navy;
+  border-radius: 10px 10px 10px 10px;
+  font-size: 1.2em; 
+  font-family: 'Josefin Sans', sans-serif;
 }
