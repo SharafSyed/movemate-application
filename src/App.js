@@ -10,7 +10,7 @@ function App() {
   const [selectedTime, onTimeChange] = useState('');
   const [symbolsArr] = useState(["e", "E", "+", "-", "."]);
   const [hrs, setHrs] = useState(null);
-  const [maxHrs, setMaxHrs]= useState(0);
+  const [maxHrs, setMaxHrs]= useState(24);
   const [isWeekend, setWeekendState] = useState(false);
   const today = new Date();
   const futureLimit = new Date(today.getFullYear()+20, today.getMonth(), today.getDate());
@@ -89,7 +89,7 @@ function App() {
       />
       <br></br>
       <label className='label'>
-        Enter Time of Booking:
+        Enter Length of Booking:
         <input
         className = "picker"
         type="number"
@@ -99,7 +99,7 @@ function App() {
         max = {maxHrs}
         min = '0'
       />
-      Enter Length of Booking:
+      Enter Time of Booking:
       <input
         type="time" 
         required
